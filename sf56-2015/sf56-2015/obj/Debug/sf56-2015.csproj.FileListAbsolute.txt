@@ -1,1 +1,6 @@
 C:\Users\TEMP.FTN.010\Desktop\New folder\POP-SF56-2015\sf56-2015\sf56-2015\bin\Debug\sf56-2015.exe.config
+C:\Users\TEMP.FTN.010\Desktop\New folder\POP-SF56-2015\sf56-2015\sf56-2015\obj\Debug\sf56-2015.csprojResolveAssemblyReference.cache
+C:\Users\TEMP.FTN.010\Desktop\New folder\POP-SF56-2015\sf56-2015\sf56-2015\bin\Debug\sf56-2015.exe
+C:\Users\TEMP.FTN.010\Desktop\New folder\POP-SF56-2015\sf56-2015\sf56-2015\bin\Debug\sf56-2015.pdb
+C:\Users\TEMP.FTN.010\Desktop\New folder\POP-SF56-2015\sf56-2015\sf56-2015\obj\Debug\sf56-2015.exe
+C:\Users\TEMP.FTN.010\Desktop\New folder\POP-SF56-2015\sf56-2015\sf56-2015\obj\Debug\sf56-2015.pdb
