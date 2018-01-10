@@ -1,0 +1,30 @@
+﻿<Window x:Class="Salon.GUI.FrmProdaja"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Salon.GUI"
+        mc:Ignorable="d"
+        Title="FrmProdaja" Height="538.264" Width="440.214" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label Content="Namestaj: " HorizontalAlignment="Left" Margin="34,28,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cbNamestajiId" HorizontalAlignment="Left" Margin="105,32,0,0" VerticalAlignment="Top" Width="89" SelectedIndex="0" SelectionChanged="cbNamestajiId_SelectionChanged"/>
+        <Label x:Name="lblNazivOdabranogNamestaja" Content="Naziv:" HorizontalAlignment="Left" Margin="215,28,0,0" VerticalAlignment="Top" Width="171"/>
+        <Label Content="Kolicina: " HorizontalAlignment="Left" Margin="34,81,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbKolicina" HorizontalAlignment="Left" Height="23" Margin="105,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="187"/>
+        <Button x:Name="btDodaj" Content="Dodaj" HorizontalAlignment="Left" Margin="311,87,0,0" VerticalAlignment="Top" Width="75" Click="btDodaj_Click"/>
+        <TextBox x:Name="tbListaNamestaja" HorizontalAlignment="Left" Height="92" Margin="105,127,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="281"/>
+        <Label Content="Kupac:" HorizontalAlignment="Left" Margin="34,247,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbKorisnik" HorizontalAlignment="Left" Height="23" Margin="105,247,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="281"/>
+        <Label Content="Br racuna:" HorizontalAlignment="Left" Margin="29,290,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbBrojRacuna" HorizontalAlignment="Left" Height="23" Margin="105,290,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="281"/>
+        <Label Content="Dodatne usluge: " HorizontalAlignment="Left" Margin="29,342,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbDodatneUslugeCena" HorizontalAlignment="Left" Height="23" Margin="159,342,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158" Text="0"/>
+        <Label Content="RSD" HorizontalAlignment="Left" Margin="347,342,0,0" VerticalAlignment="Top" Width="39"/>
+        <Label Content="Ukupna cena: " HorizontalAlignment="Left" Margin="29,387,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbUkupnaCena" HorizontalAlignment="Left" Height="23" Margin="159,387,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="158"/>
+        <Button x:Name="btnEvidencija" Content="Evidencija racuna" HorizontalAlignment="Left" Margin="34,448,0,0" VerticalAlignment="Top" Width="141" Click="btnEvidencija_Click"/>
+        <Button x:Name="btnZatvori" Content="Zatvori" HorizontalAlignment="Left" Margin="317,448,0,0" VerticalAlignment="Top" Width="75" Click="btnZatvori_Click"/>
+
+    </Grid>
+</Window>
